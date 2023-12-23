@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#Autor: Q.R.N - Lucas FG
 # Função para exibir mensagem de uso
 usage() {
     echo "Uso: $0 <URL alvo> <Arquivo de saída>"
@@ -17,6 +18,12 @@ command -v subfinder >/dev/null 2>&1 || { echo >&2 "Subfinder não encontrado. P
 command -v amass >/dev/null 2>&1 || { echo >&2 "Amass não encontrado. Por favor, instale-o."; exit 1; }
 command -v anew >/dev/null 2>&1 || { echo >&2 "Anew não encontrado. Por favor, instale-o."; exit 1; }
 command -v httpx >/dev/null 2>&1 || { echo >&2 "HTTPX não encontrado. Por favor, instale-o."; exit 1; }
+command -v chaos >/dev/null 2>&1 || { echo >&2 "HTTPX não encontrado. Por favor, instale-o."; exit 1; }
+command -v github-subdomains >/dev/null 2>&1 || { echo >&2 "HTTPX não encontrado. Por favor, instale-o."; exit 1; }
+command -v findomain >/dev/null 2>&1 || { echo >&2 "HTTPX não encontrado. Por favor, instale-o."; exit 1; }
+command -v haktrails >/dev/null 2>&1 || { echo >&2 "HTTPX não encontrado. Por favor, instale-o."; exit 1; }
+command -v assetfinder >/dev/null 2>&1 || { echo >&2 "HTTPX não encontrado. Por favor, instale-o."; exit 1; }
+
 
 # Armazenando a URL alvo e o nome do arquivo de saída
 domain="$1"

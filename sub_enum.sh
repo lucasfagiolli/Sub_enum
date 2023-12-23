@@ -35,7 +35,7 @@ subfinder -d $domain -silent -o subdomains.txt
 amass enum -d $domain -o - >> subdomains.txt
 assetfinder -subs-only $domain >> subdomains.txt
 chaos -d $domain >> subdomains.txt
-github-subdomains  -t  {API} -d $domain >> subdomains.txt
+github-subdomains  -t  {Coloque sua API} -d $domain >> subdomains.txt
 echo "$domain" | haktrails >> subdomains
 findomain -t $domain -q
 

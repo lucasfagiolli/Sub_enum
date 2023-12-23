@@ -19,7 +19,6 @@ command -v amass >/dev/null 2>&1 || { echo >&2 "Amass não encontrado. Por favor
 command -v anew >/dev/null 2>&1 || { echo >&2 "Anew não encontrado. Por favor, instale-o."; exit 1; }
 command -v httpx >/dev/null 2>&1 || { echo >&2 "HTTPX não encontrado. Por favor, instale-o."; exit 1; }
 command -v chaos >/dev/null 2>&1 || { echo >&2 "HTTPX não encontrado. Por favor, instale-o."; exit 1; }
-command -v github-subdomains >/dev/null 2>&1 || { echo >&2 "HTTPX não encontrado. Por favor, instale-o."; exit 1; }
 command -v findomain >/dev/null 2>&1 || { echo >&2 "HTTPX não encontrado. Por favor, instale-o."; exit 1; }
 command -v haktrails >/dev/null 2>&1 || { echo >&2 "HTTPX não encontrado. Por favor, instale-o."; exit 1; }
 command -v haktrails >/dev/null 2>&1 || { echo >&2 "HTTPX não encontrado. Por favor, instale-o."; exit 1; }

@@ -15,6 +15,13 @@ Este script em Bash permite a enumeração de subdomínios de um domínio alvo, 
 - amass
 - anew
 - httpx
+- chaos
+- github-subdomains
+- findomain
+- haktrails
+- assetfinder
+
+
 
 ## Uso
 

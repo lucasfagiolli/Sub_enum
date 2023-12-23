@@ -19,10 +19,10 @@ Este script em Bash permite a enumeração de subdomínios de um domínio alvo, 
 ## Uso
 
 Execute o script fornecendo a URL alvo e o nome do arquivo de saída:
-
+Exemplo: ./sub_enum.sh example.com output.txt
 
 ## Contribuição
 
 Sinta-se à vontade para contribuir com melhorias ou reportar problemas através de issues ou pull requests.
-Exemplo: ./sub_enum.sh example.com output.txt
+
 

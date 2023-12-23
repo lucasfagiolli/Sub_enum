@@ -16,7 +16,6 @@ Este script em Bash permite a enumeração de subdomínios de um domínio alvo, 
 - anew - https://github.com/tomnomnom/anew
 - httpx - https://github.com/projectdiscovery/httpx
 - chaos - https://github.com/projectdiscovery/chaos-client
-- github-subdomains - https://github.com/gwen001/github-subdomains
 - findomain - https://github.com/Findomain/Findomain
 - haktrails - https://github.com/hakluke/haktrails
 - assetfinder - https://github.com/tomnomnom/assetfinder

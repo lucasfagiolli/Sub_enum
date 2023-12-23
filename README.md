@@ -11,6 +11,9 @@ Este script em Bash permite a enumeração de subdomínios de um domínio alvo, 
 
 ## Requisitos
 
+Para executar este script, você precisa ter o Go (Golang) instalado no seu sistema.
+Se o Go não estiver instalado, você pode fazer o download e instalar a partir do site oficial: https://go.dev/doc/install
+
 - subfinder - https://github.com/projectdiscovery/subfinder
 - amass - https://github.com/owasp-amass/amass
 - anew - https://github.com/tomnomnom/anew

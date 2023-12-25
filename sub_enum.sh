@@ -21,7 +21,6 @@ command -v httpx >/dev/null 2>&1 || { echo >&2 "HTTPX não encontrado. Por favor
 command -v chaos >/dev/null 2>&1 || { echo >&2 "HTTPX não encontrado. Por favor, instale-o."; exit 1; }
 command -v findomain >/dev/null 2>&1 || { echo >&2 "HTTPX não encontrado. Por favor, instale-o."; exit 1; }
 command -v haktrails >/dev/null 2>&1 || { echo >&2 "HTTPX não encontrado. Por favor, instale-o."; exit 1; }
-command -v haktrails >/dev/null 2>&1 || { echo >&2 "HTTPX não encontrado. Por favor, instale-o."; exit 1; }
 
 # Armazenando a URL alvo e o nome do arquivo de saída
 domain="$1"

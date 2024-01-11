@@ -32,8 +32,8 @@ subfinder -d $domain -silent -o subdomains.txt
 amass enum -d $domain -o - >> subdomains.txt
 assetfinder -subs-only $domain >> subdomains.txt
 chaos -d $domain >> subdomains.txt
-echo "$domain" | haktrails >> subdomains
-findomain -t $domain -q
+echo "$domain" | haktrails >> subdomains.txt
+findomain -t $domain -q >> subdomains.txt
 
 
 # Remoção de subdomínios duplicados usando anew
@@ -42,7 +42,7 @@ cat subdomains.txt | anew > unique_subdomains.txt
 
 # Verificação de atividade com httpx e salvamento dos subdomínios ativos
 echo "Verificando subdomínios ativos..."
-cat unique_subdomains.txt | httpx -o active_subdomains.txt
+cat unique_subdomains.txt | httpx -silent -mc 200 -o active_subdomains.txt
 
 # Salvando os subdomínios ativos no arquivo especificado pelo usuário
 cp active_subdomains.txt "$output_file"
